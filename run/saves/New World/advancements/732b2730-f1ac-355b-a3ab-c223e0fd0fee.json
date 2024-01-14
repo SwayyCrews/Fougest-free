@@ -1,0 +1,74 @@
+{
+  "minecraft:recipes/transportation/acacia_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/dark_oak_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/root": {
+    "criteria": {
+      "killed_something": "2023-12-19 08:18:07 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/birch_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_a_mob": {
+    "criteria": {
+      "minecraft:zombie": "2023-12-19 08:18:24 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/transportation/jungle_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/kill_all_mobs": {
+    "criteria": {
+      "minecraft:skeleton": "2023-12-19 08:18:41 +0300",
+      "minecraft:zombie": "2023-12-19 08:18:24 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/transportation/spruce_boat": {
+    "criteria": {
+      "in_water": "2023-12-19 08:18:17 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle_edge": "2023-12-19 10:42:46 +0300",
+      "minecraft:bamboo_jungle": "2023-12-19 08:13:47 +0300",
+      "minecraft:river": "2023-12-19 08:14:07 +0300",
+      "minecraft:bamboo_jungle_hills": "2023-12-19 10:41:27 +0300",
+      "minecraft:plains": "2023-12-19 10:42:47 +0300"
+    },
+    "done": false
+  },
+  "minecraft:recipes/misc/bone_meal": {
+    "criteria": {
+      "has_bone": "2023-12-19 08:18:41 +0300"
+    },
+    "done": true
+  },
+  "DataVersion": 2586
+}

@@ -1,0 +1,28 @@
+{
+  "minecraft:recipes/food/cooked_mutton_from_campfire_cooking": {
+    "criteria": {
+      "has_mutton": "2023-12-19 22:46:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton": {
+    "criteria": {
+      "has_mutton": "2023-12-19 22:46:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:recipes/food/cooked_mutton_from_smoking": {
+    "criteria": {
+      "has_mutton": "2023-12-19 22:46:22 +0300"
+    },
+    "done": true
+  },
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:dark_forest": "2023-12-19 22:45:32 +0300",
+      "minecraft:plains": "2023-12-19 22:46:13 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}

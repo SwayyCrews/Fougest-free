@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/src/assets/minecraft/expensive/sounds" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/assets/minecraft/expensive/sounds/start.mp3" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/assets/minecraft/expensive/sounds/start.wav" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/net/minecraft/client/gui/screen/MainMenuScreen.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/Function.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/combat/AuraFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/combat/AuraNew.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/combat/AutoAncherFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/combat/VelocityFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/movement/FlightFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/movement/WaterSpeed.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/player/NoInteractFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/ESPFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/HUD.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/HUDSELFCODE.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/HitColor.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/HudFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/JumpCircleFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/render/XRayFunction.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/modules/impl/util/AutoSwap.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/alt/AltManager.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/beta/component/impl/ModuleComponent.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/clickgui/Window.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/clickgui/binds/BindWindow.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/clickgui/configs/ConfigDrawing.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/screen/clickgui/theme/ThemeDrawing.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/client/util/font/Fonts.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/main/Initilization.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/src/ru/fougest/other/config/Config.java" charset="windows-1251" />
+    <file url="PROJECT" charset="windows-1251" />
+  </component>
+</project>

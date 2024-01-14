@@ -1,0 +1,76 @@
+---- Minecraft Crash Report ----
+// My bad.
+
+Time: 06.01.2024, 03:06
+Description: Rendering screen
+
+java.lang.IllegalArgumentException: bound must be greater than origin
+	at java.base/jdk.internal.util.random.RandomSupport.checkRange(RandomSupport.java:232)
+	at java.base/java.util.random.RandomGenerator.nextInt(RandomGenerator.java:679)
+	at net.minecraft.client.gui.screen.MainMenuScreen.createSnowflakeList(MainMenuScreen.java:237)
+	at net.minecraft.client.gui.screen.MainMenuScreen.renderSnow(MainMenuScreen.java:273)
+	at net.minecraft.client.gui.screen.MainMenuScreen.render(MainMenuScreen.java:409)
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:688)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1057)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:642)
+	at net.minecraft.client.main.Main.main(Main.java:206)
+	at Start.main(Start.java:12)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Thread: Render thread
+Stacktrace:
+	at java.base/jdk.internal.util.random.RandomSupport.checkRange(RandomSupport.java:232)
+	at java.base/java.util.random.RandomGenerator.nextInt(RandomGenerator.java:679)
+	at net.minecraft.client.gui.screen.MainMenuScreen.createSnowflakeList(MainMenuScreen.java:237)
+	at net.minecraft.client.gui.screen.MainMenuScreen.renderSnow(MainMenuScreen.java:273)
+	at net.minecraft.client.gui.screen.MainMenuScreen.render(MainMenuScreen.java:409)
+
+-- Screen render details --
+Details:
+	Screen name: net.minecraft.client.gui.screen.MainMenuScreen
+	Mouse location: Scaled: (2147483647, 2147483647). Absolute: (1448.000000, 332.000000)
+	Screen size: Scaled: (960, 540). Absolute: (1920, 1080). Scale factor of 2.000000
+Stacktrace:
+	at net.minecraft.client.renderer.GameRenderer.updateCameraAndRender(GameRenderer.java:688)
+	at net.minecraft.client.Minecraft.runGameLoop(Minecraft.java:1057)
+	at net.minecraft.client.Minecraft.run(Minecraft.java:642)
+	at net.minecraft.client.main.Main.main(Main.java:206)
+	at Start.main(Start.java:12)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.16.5
+	Minecraft Version ID: 1.16.5
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 17.0.9, Amazon.com Inc.
+	Java VM Version: OpenJDK 64-Bit Server VM (mixed mode, sharing), Amazon.com Inc.
+	Memory: 358644224 bytes (342 MB) / 1545601024 bytes (1474 MB) up to 4276092928 bytes (4078 MB)
+	CPUs: 12
+	JVM Flags: 0 total; 
+	Launched Version: mcp
+	Backend library: LWJGL version 3.2.2 build 10
+	Backend API: Radeon (TM) RX 480 Graphics GL version 4.6.0 Compatibility Profile Context 20.10.35.02.230823, ATI Technologies Inc.
+	GL Caps: Using framebuffer using OpenGL 3.0
+	Using VBOs: Yes
+	Is Modded: Definitely; Client brand changed to 'vanilla/modified'
+	Type: Client (map_client.txt)
+	Graphics mode: fancy
+	Resource Packs: vanilla, file/привата v2 (OptiFine 1.16.5) (1).zip
+	Current Language: English (US)
+	CPU: 12x Intel(R) Xeon(R) CPU E5-2630 v2 @ 2.60GHz
+	OptiFine Version: OptiFine_1.16.5_HD_U_G8
+	OptiFine Build: ~~NULL~~
+	Render Distance Chunks: 8
+	Mipmaps: 4
+	Anisotropic Filtering: 1
+	Antialiasing: 0
+	Multitexture: false
+	Shaders: null
+	OpenGlVersion: 4.6.0 Compatibility Profile Context 20.10.35.02.230823
+	OpenGlRenderer: Radeon (TM) RX 480 Graphics
+	OpenGlVendor: ATI Technologies Inc.
+	CpuCount: 12

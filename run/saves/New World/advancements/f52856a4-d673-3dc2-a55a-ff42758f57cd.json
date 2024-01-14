@@ -1,0 +1,10 @@
+{
+  "minecraft:adventure/adventuring_time": {
+    "criteria": {
+      "minecraft:jungle_edge": "2023-12-18 00:26:12 +0300",
+      "minecraft:plains": "2023-12-18 00:26:31 +0300"
+    },
+    "done": false
+  },
+  "DataVersion": 2586
+}
